@@ -8,7 +8,9 @@
     "deploy": "strapi deploy",
     "develop": "strapi develop",
     "start": "strapi start",
-    "strapi": "strapi"
+    "strapi": "strapi",
+  "postinstall": "npm install --legacy-peer-deps"
+
   },
   "dependencies": {
     "@strapi/design-system": "^1.19.0",
